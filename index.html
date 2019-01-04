@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Калькулятор</title>
+  </head>
+  <body>
+    <section id="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="calc">
+              <h2>Расчет стоимости</h2>
+              <label for="card_edition">Выберите тираж</label>
+              <br>
+              <select name="card_edition" id="card_edition" class="form-control">
+                <option value="90">90</option>
+                <option value="120">120</option>
+                <option value="150">150</option>
+                <option value="180">180</option>
+                <option value="210">210</option>
+                <option value="230">230</option>
+                <option value="250">250</option>
+                <option value="280">280</option>
+                <option value="310">310</option>
+                <option value="330">330</option>
+                <option value="350">350</option>
+                <option value="600">600</option>
+                <option value="700">700</option>
+                <option value="800">800</option>
+                <option value="1000">1000</option>
+                <option value="2000">2000</option>
+              </select>
+              <br>
+              <label for="card_paper">Выберите бумагу</label>
+              <select name="card_paper" id="card_paper" class="form-control">
+                <option value="Белая">Белая</option>
+                <option value="Черная">Черная</option>
+                <option value="Серая">Серая</option>
+              </select>
+              <br>
+              <label for="card_color">Выберите цветность</label>
+              <select name="card_color" id="card_color" class="form-control">
+                <option value="цвет1">цвет1</option>
+                <option value="цвет2">цвет2</option>
+                <option value="цвет3">цвет3</option>
+                <option value="цвет4">цвет4</option>
+                <option value="цвет5">цвет5</option>
+                <option value="цвет6">цвет6</option>
+              </select>
+              <br>
+              <h4>
+                <small>Приблизительная</small><br>
+                Стоимость за тираж
+              </h4>
+              <p class="price">
+                <span id="final_price">0</span>
+                Руб.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
